@@ -46,9 +46,9 @@ function init() {
     Cubo = [];   // Definir un array unidimensional
 
     var dimension = prompt('Digite la dimension del cubo', 5);
-    parseInt(dimension, 10);
+    var dim1 = parseInt(dimension, 10);
 
-    dim = dimension; // dimensiones iniciales de los cubos, acá se modifica el tamaño inicial de los cubos.
+    dim = dim1; // dimensiones iniciales de los cubos, acá se modifica el tamaño inicial de los cubos.
     dimscale = dim / dim; //dimensiones convertidas para la funcion scale.set ya que el valor inicial es 1 entonces toca dividir 6/6 para convertirlo a 1
     dim2 = dimscale / 2; //dimensiones del cubo 1 escaladas a la mitad generando el 2 cubo
     dim3 = dimscale / 4;  //dimensiones del cubo 2 escaladas a la mitad generando el 3 cubo
